@@ -10,3 +10,7 @@ function proxyon(){
 function proxyoff(){
   sudo networksetup -setautoproxystate "Wi-Fi" off
 }
+
+function proxystate(){
+  networksetup -getautoproxyurl "Wi-Fi"
+}
