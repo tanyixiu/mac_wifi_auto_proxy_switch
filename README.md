@@ -12,7 +12,7 @@ source 路径/proxyswitch.sh
 source ~/.bashrc
 ```
 
-### 用法
+### 命令
 + `proxyon` 命令可以打开Wi-Fi自动代理
 + `proxyoff` 命令可以关闭Wi-Fi自动代理
 + `proxystate` 命令可以查看当前Wi-Fi 自动代理的状态
